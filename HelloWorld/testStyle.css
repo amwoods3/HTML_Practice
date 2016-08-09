@@ -1,0 +1,24 @@
+body {
+  color: #202020;
+  background-color: #c0c0c0;
+}
+
+h1 {
+  color: #202020;
+  margin-left: 15px;
+}
+
+code {
+	display: block;
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 95%;
+	line-height: 140%;
+	color: #c0c0c0;
+	background-color: #000000;
+}
+
+#content code {
+	padding: 0.5em 1em;
+	border: 1px solid #000000;
+	background-color: #000000;
+}

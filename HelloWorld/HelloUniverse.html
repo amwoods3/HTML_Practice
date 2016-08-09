@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+  <head>
+    <script>
+      function greetOther() {
+        var g = document.getElementById("greet").innerHTML;
+        if (g == "Hello, Universe!") {
+          document.getElementById("greet").innerHTML = "Hello, World!";
+          document.getElementById("think").innerHTML = "Think Big!";
+        } else {
+          document.getElementById("greet").innerHTML = "Hello, Universe!";
+          document.getElementById("think").innerHTML = "Think Close!";
+        }
+      }
+      
+    </script>
+  </head>
+  
+  <body>
+    <p id="greet">Hello, World!</p>
+    
+    <button type="button" id="think" onclick="greetOther()">Think Big!</button>
+  </body>
+  
+</html>
