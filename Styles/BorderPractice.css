@@ -1,0 +1,29 @@
+h1 {
+    border-style: hidden solid hidden solid;
+    border-color: black darkgray black black;
+    border-width: thick;
+    background-color: gray;
+    color: navy;
+}
+
+p {
+    border-style: dotted;
+    border-color: gray;
+    color: black;
+}
+
+p.note {
+    border-style: dashed;
+    border-color: black;
+    background-color: lightgreen;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: black;
+}
+
+p.round {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    width: 50%;
+}

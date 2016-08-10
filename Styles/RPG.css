@@ -1,0 +1,29 @@
+body {
+    background-color: #232323;
+}
+
+h1 {
+    border-style: hidden hidden solid hidden;
+    border-color: silver;
+    color: white;
+}
+
+p.dialogue {
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    width: 50%;
+}
+
+p.story {
+	border-style: dotted;
+	border-color: orange;
+	border-width: medium;
+	border-radius: 2px;
+	background-color: white;
+	color: navy;
+	width: 50%;
+}

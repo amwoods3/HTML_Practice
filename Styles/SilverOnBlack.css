@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: silver;
+    margin-left: 35px;
+}
+
+p.dialogue {
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    width: 250px;
+}
+
+h1 {
+    border-style: double;
+    border-color: white;
+    border-width: thick;
+    color: silver;
+}
+
