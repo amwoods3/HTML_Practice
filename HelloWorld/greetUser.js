@@ -12,7 +12,7 @@ function greetUser() {
 function typeGreeting() {
   greeting = document.getElementById("greeting").innerHTML;
   name = document.getElementById("nameQuery").elements[0].value
-  finishedGreeting = "Hello, " + name + "! It is nice to meet you.";
+  finishedGreeting = "Hello, " + name + "! It is nice to meet you. :)";
   if (greeting != finishedGreeting) {
     greeting = greeting + finishedGreeting.charAt(greeting.length);
   } else {
